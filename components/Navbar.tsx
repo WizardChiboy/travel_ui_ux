@@ -7,9 +7,8 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/TravelLink-logo.svg" alt="logo" width={74} height={29} />
+        <span className="text-2xl font-bold text-black-600">TravelLink</span>
       </Link>
-
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
           <Link
@@ -25,7 +24,6 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
-
       <div className="lg:flexCenter hidden">
         <Button
           type="button"
