@@ -38,7 +38,7 @@ const Hero = () => {
               ))}
           </div>
 
-          <p className="bold-16 lg:bold-20 text-orange-600">
+          <p className="bold-16 lg:bold-20 text-black-600">
             198k
             <span className="regular-16 lg:regular-20 ml-1">Beta Reviews</span>
           </p>
